@@ -8,51 +8,46 @@ header,main,footer{
   display: block;
   clear: both;
 }
-.clearfix:before {
-  content: "";
-  display: block;
-  clear: both;
-} 
 .clearfix {
   display: block;
 }
-#h_box1{
+.h_box1{
   height: 100px;
   background: #ff0000;
   position: relative;
 }
-#h_inbox1{
-  width: 160px;
-  height: 60px;
+.h_inbox1{
   top: 20px;
   right: 20px;
   background: #ffffff;
   position: absolute;
 }
+.h_inbox2:first-child{
+  margin-left: 10px;
+}
 .h_inbox2{
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin-top: 10px;
-  margin-right:10px;
-  float: right;
+  margin:10px 10px 10px 0;
+  float: left;
 }
-#m_box1{
+.m_box1{
   width: 150px;
   height:250px;
   background: #00ff51;
   float: left;
 }
-#m_box2{
+.m_box2{
   width: 250px;
   height:250px;
   background: #8c2727;
-  float:right;
+  float:left;
 }
-#m_box2 div:first-child{
+.m_box2 div:first-child{
   margin-top: 40px;
 }
-#m_box2 div:not(:first-child){
+.m_box2 div:not(:first-child){
   margin-top: 10px;
 }
 .m_inbox1{
@@ -62,7 +57,7 @@ header,main,footer{
   background: #ff863f;
   border: 5px solid #ffffff;
 }
-#f_box1{
+.f_box1{
   height: 100px;
   background: #ffd000;
 }

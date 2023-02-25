@@ -19,17 +19,17 @@ header,main,footer{
 .h_inbox1{
   top: 20px;
   right: 20px;
+  padding:10px;
   background: #ffffff;
   position: absolute;
 }
-.h_inbox2:first-child{
+.h_inbox2:not(:first-child){
   margin-left: 10px;
 }
 .h_inbox2{
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin:10px 10px 10px 0;
   float: left;
 }
 .m_box1{
@@ -43,17 +43,17 @@ header,main,footer{
   height:250px;
   background: #8c2727;
   float:left;
+  position: relative;
 }
-.m_box2 div:first-child{
-  margin-top: 40px;
-}
-.m_box2 div:not(:first-child){
-  margin-top: 10px;
+.m_inbox0{
+  position: absolute;
+  top:40px;
+  left:40px;
 }
 .m_inbox1{
   width: 140px;
   height: 40px;
-  margin-left:40px;
+  margin-bottom: 10px;
   background: #ff863f;
   border: 5px solid #ffffff;
 }

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-header,main,footer{
+header,footer{
   width:  400px;
 }
 .clearfix:after {
@@ -56,6 +56,9 @@ header,main,footer{
   margin-bottom: 10px;
   background: #ff863f;
   border: 5px solid #ffffff;
+}
+.m_inbox1:last-child{
+  margin-bottom: 0;
 }
 .f_box1{
   height: 100px;
